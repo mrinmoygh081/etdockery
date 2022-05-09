@@ -22,6 +22,7 @@ button {
 body {
     position: relative;
     line-height: normal;
+    overflow-x: none;
 }
 
 html,
@@ -83,9 +84,11 @@ button {
 button:focus {
     outline: none;
 }
+
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
+
 .form-control:focus {
     box-shadow: none;
     outline: none;
@@ -698,7 +701,7 @@ h4 {
 
 .btn-1 {
     font-size: 14px;
-    background: #bf0a30; 
+    background: #bf0a30;
     color: #fff;
     padding: 15px 22px;
     border: 1px solid #fff;
@@ -711,8 +714,9 @@ h4 {
     cursor: pointer;
     border-radius: 3px;
 }
+
 .btn-1:hover {
-    background: #002e5b; 
+    background: #002e5b;
     color: #fff;
 }
 
@@ -7632,12 +7636,15 @@ body.active #mobile-nav {
     width: 100%;
     border-radius: 12px;
 }
+
 .parnering .col-12 {
     margin: 20px 0;
 }
+
 .pra-cont p {
     color: #6b6969;
 }
+
 .pra-cont li {
     color: #6b6969;
 }
@@ -12001,17 +12008,20 @@ p.no-support {
     list-style: circle;
     padding-left: 20px;
 }
+
 .normal_ul li {
     padding-bottom: 15px;
     font-size: 14px;
     line-height: 28px;
     color: #6f6f6f;
 }
+
 .section-head-2 h2.mHeading {
     letter-spacing: 0;
     font-size: 20px;
     line-height: 28px;
 }
+
 .lifemap_about p {
     padding-bottom: 15px;
     font-size: 14px;
@@ -12023,53 +12033,68 @@ p.no-support {
               Team
 ==================================== */
 .team {
-  padding: 70px 0;
+    padding: 70px 0;
 }
+
 .team h2 {
-  font-weight: 700;
-  margin-bottom: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
 }
+
 .team_member {
-  margin: 0 0 40px;
-  border-radius: 18px;
-  background-color: #fff;
-  box-shadow: 0px 3px 9px 0px rgb(117 117 117 / 35%);
+    margin: 0 0 40px;
+    border-radius: 18px;
+    background-color: #fff;
+    box-shadow: 0px 3px 9px 0px rgb(117 117 117 / 35%);
 }
+
 .team_member img {
-  border-radius: 18px 0 0 18px;
+    border-radius: 18px 0 0 18px;
 }
+
 .team_member_details {
-  padding: 32px 20px;
-  height: 100%;
+    padding: 32px 20px;
+    height: 100%;
 }
+
 .team_member_details h3 {
-  font-size: 32px;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #bf0a30;
-  margin: 0 0 3px 0;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #bf0a30;
+    margin: 0 0 3px 0;
 }
+
 .team_member_details h4 {
-  font-size: 22px;
-  margin-bottom: 15px;
+    font-size: 22px;
+    margin-bottom: 15px;
 }
+
 .team_member_details p {
     font-size: 16px;
     line-height: 28px;
     color: #6f6f6f;
 }
+
 /*.swiper-container {*/
 /*    padding-bottom: 20px;*/
 /*}*/
-.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+.swiper-container-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
     bottom: -3px;
 }
+
 .about-des p {
     padding-bottom: 16px;
 }
-@media only screen and (max-width: 512px) {
-  .team_member img {
-    border-radius: 18px 18px 0 0;
-  }
-}
 
+@media only screen and (max-width: 512px) {
+    .team_member img {
+        border-radius: 18px 18px 0 0;
+    }
+
+    .atropos-rotate-touch {
+        touch-action: pan-y !important;
+    }
+}

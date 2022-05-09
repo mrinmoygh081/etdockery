@@ -4,6 +4,7 @@
     <meta name="author" content="">
     <meta name="description" content="">
     <meta name="keyword" content="">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">  
     <title>ET Dockery Consulting Agency</title>
     
     <!-- Fav Icon -->

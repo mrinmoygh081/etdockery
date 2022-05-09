@@ -5,20 +5,24 @@
     $(window).on('load', function () {
         $("#loader-wrapper").delay(3000).fadeOut("slow");
     });
+    
+    setTimeout(function () {
+        $("#loader-wrapper").delay(200).fadeOut("slow");
+    }, 3000);
   
     $(".dial").knob({
-            width: '150',
-            height: '150',
-            thickness: '.12',
-            bgColor: 'rgba(255, 255, 255, 1)',
-            inputColor: '#001e3c',
-            fgColor: '#bf0a30',
-            readOnly: true,
-            lineCap: 'round',
-            parse: function(e){
-                return parseInt(e, 10);
-            }
-        });
+        width: '150',
+        height: '150',
+        thickness: '.12',
+        bgColor: 'rgba(255, 255, 255, 1)',
+        inputColor: '#001e3c',
+        fgColor: '#bf0a30',
+        readOnly: true,
+        lineCap: 'round',
+        parse: function(e){
+            return parseInt(e, 10);
+        }
+    });
 
 
     $('.dial').each(function() {
